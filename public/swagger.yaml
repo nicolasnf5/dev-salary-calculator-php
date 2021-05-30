@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: Mindhunter API
+  description: Mindhunter API documentation
+  version: 1.0.0
+servers:
+  - url: 'https://mindhunter.rooftop.dev/'
+  - url: 'http://localhost/'
+tags:
+  - name: Users
+    description: User's actions
+security:
+  - cookieAuth: []

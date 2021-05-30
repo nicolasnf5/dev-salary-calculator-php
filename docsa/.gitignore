@@ -1,0 +1,6 @@
+mysql/data/*
+redis/data/*
+logs/*
+import/*
+data/*
+conf/*

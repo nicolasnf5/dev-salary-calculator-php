@@ -1,0 +1,16 @@
+<?php
+declare(strict_types=1);
+
+namespace Application\Commands\Technology;
+
+final class CreateTechnologyCommand
+{
+    public function __construct(
+        private string $name,
+    ) {}
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+}
