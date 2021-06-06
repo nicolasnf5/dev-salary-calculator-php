@@ -26,7 +26,7 @@ final class EditRateAction
 
         return \Illuminate\Support\Facades\Response::json(
             'Rate edited.',
-            204
+            200
         );
     }
 }
